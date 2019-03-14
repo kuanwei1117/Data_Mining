@@ -223,4 +223,5 @@ def accuracy_metric(actual, predicted):
  for i in range(len(actual)):
   if actual[i] == predicted[i]:
    correct += 1
- return correct / float(len(actual)) * 100.0
+ return correct / float(len(actual)) * 100
+
